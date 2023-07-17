@@ -1,0 +1,97 @@
+*{
+    padding: 0%;
+     margin: 0%;
+     box-sizing: border-box;
+     text-decoration: none;
+ 
+ }
+ 
+ .header{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding-top: 1.5rem;
+     margin-left: 2.5rem;
+     margin-right: 9rem;
+     color:rgb(3, 7, 73);
+ }
+
+ ul{
+    display: flex;
+    flex-direction: row;
+ }
+
+ li{
+     list-style-type: none;
+     margin-left: 3rem;
+     font-weight: 900;
+ }
+ hr{
+    border:0.1rem solid rgb(3, 7, 73);;
+}
+a{
+    color:rgb(3, 7, 73);
+}
+
+
+.buy{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-content:flex-start;
+    flex-wrap: wrap;
+    height:auto;
+   
+}
+.buy1,.buy2,.buy3,.buy4,.buy5,.buy6{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    background-color: rgb(230,230,230);
+    margin-left: 5rem;
+    margin-right: 5rem;
+    height: 20rem;
+    object-fit: cover;
+    position: relative;
+    border-radius: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.buy11,.buy21,.buy31,.buy41,.buy51,.buy61{
+    border-radius: 5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: .3s;
+}
+
+.buy12,.buy22,.buy32,.buy42,.buy52,.buy62{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    height: 9.5rem;
+    width:16.27rem;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    border-radius: 1rem;
+    z-index: 5;
+    background-color: rgb(230,230,230);
+    color:rgb(3, 7, 73);
+    position: absolute;
+    top: 10.6rem;
+    left: 0;
+    margin-bottom: 10rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: .3s;
+}
+img{
+    border-radius: 0.8rem;
+    height: 185px;
+     width: 260px;
+     cursor:pointer;
+}
+.buy11:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transform: scale(1.03,1.03);
+}

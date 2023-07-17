@@ -1,0 +1,225 @@
+*{
+    padding: 0%;
+     margin: 0%;
+     box-sizing: border-box;
+     text-decoration: none;
+ 
+ }
+
+ body{
+        background: url(illustration/iteration.png) 5% 48% ,url(illustration/feature.png) 93% 35%,url(illustration/review1.png) 5% 76% ,url(illustration/review2.png) 93% 69%;
+        background-repeat: no-repeat;
+        background-size: 240px, 240px;
+ }
+ .header{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding-top: 1.5rem;
+     margin-left: 2.5rem;
+     margin-right: 5rem;
+     color:#030749;
+ }
+
+ ul{
+    display: flex;
+    flex-direction: row;
+ }
+
+ li{
+     list-style-type: none;
+     margin-left: 3rem;
+     font-weight: 900;
+ }
+ .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+   background-color:#cacff0;
+    min-width: 270px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 20px 20px;
+    z-index: 1;
+    right:0;
+    border-radius: 2rem;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display:block ;
+  }
+ hr{
+    border:0.1rem solid rgb(3, 7, 73);
+}
+a{
+    color:rgb(3, 7, 73);
+}
+
+img{
+    display: flex;
+    object-fit: fill;
+    width: 100%;
+    max-height: 41rem;
+    opacity: 0.8;
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    font-size: 3rem;
+    color: white;
+    font-weight: 800;
+    top: 10rem;
+    left: 4rem;
+}
+.feature,.feedback{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height:10rem;
+}
+#feature,#feedback{
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color:rgb(3, 7, 73);
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 85rem;
+    border-bottom: 1px solid white;
+    border-block: 2px solid white;
+}
+.fone,.ftwo,.fthree,.ffour {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+   border-radius: 2rem;
+    width:15rem;
+    height:13rem;
+    color:rgb(3, 7, 73);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.fone,.fthree{
+    margin-bottom: 1rem;
+}
+.ftwo,.ffour{
+    margin-top: 12rem;
+}
+.fone1,.ftwo1,.fthree1,.ffour1{
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+.fone2,.ftwo2,.fthree2,.ffour2{
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+.feedback{
+    height: 10rem;
+}
+#feedback{
+    margin-right: 86rem;
+}
+.bone,.btwo,.bthree{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align:left;
+    width:20rem;
+    height:14rem;
+    color:white;
+    color:rgb(13, 0, 34);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 2rem;
+}
+.bone1,.btwo1,.bthree1{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+.bone2,.btwo2,.bthree2{
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    font-weight: bold;    
+}
+.bone{
+    margin-bottom: 15rem;
+}
+.bthree{
+    margin-top: 27rem;
+}
+.btwo{
+    margin-top: 5rem;
+}
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    height:27rem;
+    background-color: #465166;
+}
+.connect{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width:94.96rem;
+  height: 5rem;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #bdb9b8;
+  color:  #f1f1f1;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 18rem;
+    border-bottom: 1px solid #bdb9b8;
+}
+.Aone,.Atwo,.Athree{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:20rem;
+    height: 13rem;
+     color:  #bdb9b8;
+}
+.Athree{
+    width:31rem ;
+}
+.Aone1,.Atwo1,.Athree1{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color:  #f1f1f1;
+}
+.Aone2,.Atwo2,.Athree2{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.Atwo{
+    height: 16rem;
+}
+.Athree{
+    height: 14rem;
+}
+.Aone{
+    margin-bottom: 2.5rem;
+}
+.Athree{
+    margin-bottom: 0.5rem;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bdb9b8;
+}
+i{
+    cursor: pointer;
+}
